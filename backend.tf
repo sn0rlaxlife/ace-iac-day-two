@@ -7,12 +7,3 @@ terraform {
     }
   }
 }
-terraform {
-  cloud {
-    organization = "netops-azure"
-
-    workspaces {
-      name = "ace-iac-day-two"
-    }
-  }
-}
